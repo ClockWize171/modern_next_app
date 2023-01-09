@@ -5,14 +5,26 @@ const Page = () => (
   <div className="bg-primary-black overflow-hidden">
     <Navbar />
     <Hero />
-    <About />
-    <Explore />
-    <GetStarted />
-    <WhatsNew />
-    <World />
-    <Insights />
-    <Feedback />
-    <Footer />
+    <div className="relative">
+      <About />
+      <div className="gradient-03 z-0" />
+      <Explore />
+    </div>
+    <div className="relative">
+      <GetStarted />
+      <div className="gradient-04 z-0" />
+      <WhatsNew />
+    </div>
+    <div className="relative">
+      <World />
+      <div className="gradient-05 z-0" />
+      <Insights />
+    </div>
+    <div className="relative">
+      <Feedback />
+      <div className="gradient-06 z-0" />
+      <Footer />
+    </div>
   </div>
 );
 
