@@ -1,5 +1,5 @@
 import { Navbar } from '../components';
-import { About, Explore, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
+import { About, Explore, GetStarted, Hero, WhatsNew, World } from '../sections';
 
 const Page = () => (
   <div className="bg-primary-black overflow-hidden">
